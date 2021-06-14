@@ -3,5 +3,6 @@ const router = express.Router();
 const booksCtrl = require('../controllers/books');
 
 router.get('/new', booksCtrl.new);
+router.post('/', booksCtrl.create)
 
 module.exports = router;
