@@ -6,7 +6,7 @@ const bookSchema = new Schema({
   title: String,
   author: String,
   own: Boolean,
-  collectedBy: [{ type: Schema.Types.ObjectId, ref: "User" }]
+  // collectedBy: [{ type: Schema.Types.ObjectId, ref: "User" }]
 }, {
   timestamps:true
 })
